@@ -1,4 +1,3 @@
-# 随机时间戳版本
 git init
 echo "# My Project" >> README.md
 git add README.md
@@ -17,6 +16,3 @@ for i in {1..10}; do
     git commit -m "commit $i"
     echo "提交 $i 时间: $GIT_AUTHOR_DATE"
 done
-
-git remote add origin git@github.com:yourusername/yourrepo.git
-git push -u origin master
