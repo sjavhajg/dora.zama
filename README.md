@@ -1,3 +1,4 @@
+# 随机时间戳版本
 git init
 echo "# My Project" >> README.md
 git add README.md
